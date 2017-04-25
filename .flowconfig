@@ -1,0 +1,11 @@
+[ignore]
+
+[include]
+.*/node_modules/@reachify/.*
+
+[libs]
+flow-typed/npm/.*
+flow-typed/api-types
+
+[options]
+unsafe.enable_getters_and_setters=true

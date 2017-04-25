@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "strict": 0,
+    "no-underscore-dangle": 0,
+    "space-unary-ops": 0,
+    "arrow-parens": [2, "as-needed"],
+    "no-console": 0,
+    "camelcase": 0,
+    "import/first": 0,
+    "padded-blocks": "off",
+    "import/no-extraneous-dependencies": "off",
+    "array-bracket-spacing": "off"
+  }
+}

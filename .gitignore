@@ -1,0 +1,12 @@
+.DS_Store
+dump.rdb
+nohup.out
+npm-debug.log
+*.dbs.bak
+yarn-error.log
+yarn.lock
+yarn-error.log
+build/
+dist/
+node_modules/
+schema.json
