@@ -1,11 +1,13 @@
 {
-  "name": "rest-graphql",
-  "version": "0.0.0",
+  "name": "rest-graphql-api",
+  "version": "0.0.1-alpha.2",
   "description": "A GraphQL to REST transformer",
-  "main": "dist/schema.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha --compilers js:babel-core/register --require babel-polyfill",
     "build": "NODE_ENV=production babel -d build src -s",
+    "prepublish": "sh scripts/prepublish.sh",
+    "postpublish": "sh scripts/postpublish.sh",
     "lint": "eslint src --ext .js",
     "lintfix": "npm run lint -- --fix",
     "flow": "flow"

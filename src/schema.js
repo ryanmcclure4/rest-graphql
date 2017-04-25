@@ -12,11 +12,11 @@ import Node, {
   type Expansion,
 } from './Node';
 
-type SchemaConfig = {
+export type SchemaConfig = {
   [string]: NodeConfig,
 };
 
-type Graph = {
+export type Graph = {
   [string]: Node,
 };
 
